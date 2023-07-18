@@ -1,0 +1,43 @@
+._inputBar {
+  background-color: rgb(65, 65, 65);
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  height: 2.5 rem;
+  /* height: 50px; */
+  border-radius: 15px;
+  padding: 0px 10px;
+  box-shadow: 0px 0px 4px teal;
+}
+
+/* apparently hover effect doesn't work here */
+._inputBar:hover {
+  /* border-color: #94b2cc; */
+  /* now it works */
+  border: 1px solid #b3c8db;
+}
+
+._inputBar > input {
+  flex: 1;
+  /* width: 100%;
+  height: 100%; */
+  background-color: transparent;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 15px;
+  /* border-bottom-left-radius: 15px; */
+  color: rgb(147, 208, 232);
+  /* for the cursor in input field  */
+  text-indent: 10px;
+}
+
+._inputBar > input:focus {
+  outline: none;
+}
+
+#_searchIcon {
+  height: 30px !important;
+  width: 30px !important;
+  margin: 0px 5px;
+}
